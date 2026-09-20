@@ -19,11 +19,18 @@ Open `index.html` directly in your browser.
 
 ## Image Naming
 
-Project images are already set in `assets/images` with this format:
+Project images live in `assets/images` with this 2-image structure:
 
-- `p1_1.png` ... `p1_5.png` for MindVibes
-- `p2_1.png` ... `p2_6.png` for Lignevert
-- `p3_1.jpg` ... `p3_5.jpg` for Brant Self Storage
-- `p4_1.jpg` ... `p4_5.jpg` for Heuser Qbank
+- Image 1 (`pX_1.png`): project overview with one featured screen
+- Image 2 (`pX_2.png`): three app screens in one image
+
+Current files:
+
+- `p4_1.png`, `p4_2.png` for Heuser Qbank
+- `p5_1.png`, `p5_2.png` for The Next School FBA
+- `p3_1.png`, `p3_2.png` for Brant Self Storage
+- `p1_1.png`, `p1_2.png` for MindVibes
+- `p2_1.png`, `p2_2.png` for Lignevert
+- `p6_1.png`, `p6_2.png` for FlexRide
 
 If you replace any image, keep the same filename to avoid code changes.
