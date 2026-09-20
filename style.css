@@ -248,12 +248,15 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0.75rem;
+  align-items: start;
 }
 
 .project-gallery img {
   width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+  height: auto;
+  max-height: min(220px, 28vh);
+  object-fit: contain;
+  object-position: center;
   border-radius: 0.85rem;
   border: 1px solid rgba(255, 255, 255, 0.18);
   background: #040916;
@@ -381,6 +384,6 @@ h2 {
   }
 
   .project-gallery img {
-    aspect-ratio: 4 / 3;
+    max-height: min(200px, 30vh);
   }
 }
